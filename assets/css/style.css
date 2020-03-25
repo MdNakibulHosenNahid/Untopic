@@ -1,0 +1,314 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Untopic Flower PSD to HTML
+Version:    1.0
+Last change:    25/03/2020 
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.Header
+3.Main
+4.Footer
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+*{
+    margin:0; 
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.wrapper{
+    width: 1000px;
+    height: 219vh;
+    background: #ddd;
+    margin: 0 auto;
+}
+/* Wrapping the contents */
+.content_wrapper{
+    width: 950px;
+    background: white;
+    margin: auto;
+    height: 215vh;
+    box-shadow: 2px 3px 5px #aaa;
+}
+/* Menu holder */
+.upper-part{
+    width: 100%;
+    height: 138px;
+}
+/* Little blue part on the top */
+.up{
+    height: 20px;
+    width:100%;
+    background: rgb(85, 5, 214);
+}
+/* Search input and button holder */
+.search_box{
+    width: 231px;
+    height: 30px;
+    float: right;
+    margin-right: 25px;
+    padding: 5px;
+}
+.search{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px outset #ddd;
+    height: 22px;
+}
+
+.search-icon{ 
+    width: 25px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+button img{
+    height: 100%;
+    width:100%;
+    vertical-align: auto;
+}
+/* Logo holder */
+.logo{
+    float: left;
+    margin-left: 20px;
+    
+}
+/* Making the menu */
+nav {
+    float: right;
+    margin-top: 50px;
+    margin-right: -249px;
+}
+
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/* Styling the shou out part */
+.shout{
+    height: auto;
+    background: #ddd;
+    border: 1px solid white;
+    margin: auto;
+}
+.shout p{
+    width: 90%;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 22px;
+    margin: auto;
+    padding: 10px 0px;
+    word-spacing: 5px;
+    line-height: 31.5px;
+}
+/* Styling Slider part */
+.slider-part{
+    width: 100%;
+    height: 410px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+#wrapper{
+    width: 100%;
+}
+.slider-wrapper{
+    width: 100%;
+    height:410px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+/* Styling Services Part  */
+.services{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+}
+/* Styling Service Blocks  */
+.service-block{
+    width: 298px;
+    float: left;
+    margin: 5px 7px;
+}
+.service-block img{
+    float: left;
+}
+.description{
+    width: 195px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 0px 0px 25px;
+}
+.description p{
+    width:180px;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+.description h3{
+    text-align: left;
+    padding-bottom: 4px;
+    color: purple;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+/* Styling Latest Work Part  */
+section.latest_work{
+    position: relative;
+    width: 100%;
+    height:370px;
+    padding: 40px 0px;
+    background: #ddd;
+}
+/* Styling Latest Work Blocks  */
+.work{
+    width: 275px;
+    height: auto;
+    float: left;
+    margin-left:22px ;
+    background:white;
+    padding: 11px 5px;
+    
+}
+.work img{
+    margin-left: 7px;
+}
+.work h3{
+    font-size: 22px;
+    color: purple;
+    padding: 5px 8px
+}
+.work p{
+    font-size: 17px;
+    padding: 5px 9px;
+}
+/* Styling Footer Part  */
+footer{
+    width: 100%;
+    height: 400px;
+    padding-top: 45px;
+}
+.footer{
+    width: 100%;
+    height: 240px;
+    clear: both;
+}
+.footer-content{
+    width: 208px;
+    float: left;
+    margin-left: 20px;
+}
+/* Styling Footer Blocks  */
+.footer-content h2{
+    font-size: 18px;
+    color: #333;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+/* Styling Contact Part  */
+.contact address{
+    padding: 15px 3px 2px 0px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+/* Styling Quick Link Part  */
+.quick-links ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.quick-links ul li{
+   width: 100%;
+}
+.quick-links ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 3px 0px 3px 3px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+/* Styling Blog Part  */
+.blog-content{
+    margin-top: 20px;
+}
+.blog-content h3{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+   padding: 0px;
+}
+.blog-content small{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.blog-content p{
+    margin-top: 10px;
+}
+.blog-content button{
+    float: right;
+    text-transform: capitalize;
+    padding: 5px 3px;
+    border: none;
+    margin-top: 12px;
+    color: purple;
+    background: transparent;
+}
+/* Styling Newsletter Part  */
+.newsletter form{
+    margin-top: 20px;
+}
+.newsletter form input{
+    width: 170px;
+    border: none;
+    background: #eee;
+    padding: 7px 10px;
+    margin-bottom: 12px;
+}
+.newsletter form button{
+    text-transform: uppercase;
+    padding: 8px 10px;
+    color: purple;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/* Styling Bottom Part  */
+.bottom{
+    background: #252323;
+    color: white;
+    width: 100%;
+    height: 59px;
+}
+.left{
+    float: left;
+    padding: 12px
+}
+.right{
+    float: right;
+    padding: 12px 40px;
+}
